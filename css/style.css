@@ -18,7 +18,7 @@ body {
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1.1rem;
     line-height: 1.1;
 }
 
@@ -36,6 +36,9 @@ li{
     max-width: 1100px;
 }
 
+.l-heading{
+    font-size: 3rem;
+}
 .btn{
     background: var(--primary-color);
     color: var(--light-color);
@@ -45,12 +48,18 @@ li{
 .mx-2 { margin: 0 3rem;}
 .mx-3 { margin: 0 4rem;}
 
+.py-1 { padding: 1rem 0;}
+.py-2 { padding: 2rem 0;}
+.py-3 { padding: 3rem 0;}
 /* Showcase */
-#navbar{
-    display: flex;
+#header{
     background-image: linear-gradient(to right bottom, rgba(6, 29, 61, 0.80), rgba(16, 5, 75, 0.80)), url(../img/computer.jpg);
     background-size: cover;
     height: 100vh;
+}
+
+#navbar{
+    display: flex;
     justify-content: space-between;
     padding-top: 2rem;
     overflow: hidden;
@@ -62,8 +71,6 @@ li{
 
 .logo h1{
     font-size: 2rem;
-    /* font-family: 'Rye', cursive; */
-    
     font-family: 'UnifrakturMaguntia', cursive;
 }
 
@@ -79,4 +86,14 @@ li{
     padding: 1rem;
     background: var(--primary-color);
     border-radius: 10px;
+}
+
+.header-content {
+    display: block;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.header-content h2{
+    color: var(--light-color);
 }
