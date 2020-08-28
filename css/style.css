@@ -99,3 +99,15 @@ li{
     line-height: 1.4;
 }
 
+.header-content h2 i{
+    color: var(--secondary-color);
+}
+
+.header-content .chat{
+    width: 10rem;
+    margin: auto;
+}
+
+.header-content a{
+    margin: auto;
+}
