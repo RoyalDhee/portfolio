@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2 {
+    position: relative;
+}
+
+h2 span {
+    background-color: white;
+    padding-right: 10px;
+}
+
+h2:after {
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-top: 1px solid black;
+    z-index: -1;
+}
+    </style>
+</head>
+<body>
+    <h2><span>Featured products</span></h2>
+    <h2><span>Here is a very long h2, and as you can see the line get too wide</span></h2>
+</body>
+</html>
