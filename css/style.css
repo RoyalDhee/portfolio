@@ -42,7 +42,7 @@ li{
 }
 
 .m-heading{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .btn{
@@ -122,6 +122,8 @@ li{
 /* About Section */
 #about h2{
     text-align: center;
+    padding: 4rem 0 1rem 0;
+    margin-top: 1rem;
     /* color: var(--light-color); */
 }
 
@@ -150,18 +152,47 @@ li{
 #about p{
     color: var(--dark-color);
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 4rem;
 }
 
 .cv{
     display: flex;
+    margin: 3rem 1rem;
 }
 
-.cv .cv-img{
-    width: 5px;
-    height: 5px;
+.cv .info-left{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    margin-right: 4rem;
+    
 }
 
-.cv .info{
-    display: flex;
+.cv .info-left .box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 370px;
+    height: 500px;
+    border: #10054b 7px solid;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.cv .cv-img img {
+    width: 370px;
+    height: 500px;
+    border-radius: 10px;   
+}
+
+.info-right{
+    width: 900px;
+}
+
+.info-right .info p {
+    text-align: justify;
+    line-height: 1.5;
+    margin: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: #f4f4f4 dotted 2px;
 }
