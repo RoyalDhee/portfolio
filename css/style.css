@@ -45,6 +45,34 @@ li{
     font-size: 2rem;
 }
 
+.line > div{
+    position: relative;
+    top: 0;
+    left: 0;
+    flex: none;
+    background: var(--dark-color);
+    width: 90px;
+    height: 2px;
+    margin: auto;
+}
+
+.line > div:after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 1rem;
+    background: var(--dark-color);
+    width: 50px;
+    height: inherit;
+    margin: auto;
+}
+
+.sec-header{
+    text-align: center;
+    padding: 4rem 0 1rem 0;
+    margin-top: 1rem;
+}
+
 .btn{
     display: inline-block;
     background: var(--primary-color);
@@ -120,34 +148,6 @@ li{
 }
 
 /* About Section */
-#about h2{
-    text-align: center;
-    padding: 4rem 0 1rem 0;
-    margin-top: 1rem;
-    /* color: var(--light-color); */
-}
-
-#about .line > div{
-    position: relative;
-    top: 0;
-    left: 0;
-    flex: none;
-    background: var(--dark-color);
-    width: 90px;
-    height: 2px;
-    margin: auto;
-}
-
-#about .line > div:after{
-    content: '';
-    position: absolute;
-    top: 10px;
-    left: 1rem;
-    background: var(--dark-color);
-    width: 50px;
-    height: inherit;
-    margin: auto;
-}
 
 #about p{
     color: var(--dark-color);
@@ -210,3 +210,4 @@ li{
 #about .cta a {
     margin-left: 4rem;
 }
+
