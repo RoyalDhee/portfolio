@@ -198,16 +198,32 @@ li{
 }
 
 .short-info .info-2 {
-    indent-text: 5em;
     text-align: left;
     padding-top: 10px;
 }
 .short-info p{
     text-align: left;
-    padding-left: 3rem;
 }
 
 #about .cta a {
     margin-left: 4rem;
 }
 
+/* Skills Section */
+#skill{
+    background-image: linear-gradient(to left, rgba(24, 49, 83, 0.801), rgba(6, 29, 61, 0.801) ),url('../img/skills.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+#skill h2, p, .line, .line> div{
+    color: #fff;
+}
+#skill p{
+    color: var(--dark-color);
+    text-align: center;
+    padding-top: 4rem;
+    line-height: 1.1;
+}
