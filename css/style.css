@@ -45,12 +45,13 @@ li{
     font-size: 2rem;
 }
 
+/* Dark Line */
 .line > div{
     position: relative;
     top: 0;
     left: 0;
     flex: none;
-    background: var(--dark-color);
+    background: var(--primary-color);
     width: 90px;
     height: 2px;
     margin: auto;
@@ -61,17 +62,51 @@ li{
     position: absolute;
     top: 10px;
     left: 1rem;
-    background: var(--dark-color);
+    background: var(--primary-color);
     width: 50px;
     height: inherit;
     margin: auto;
 }
+
+/* light Line */
+.line1 > div{
+    position: relative;
+    top: 0;
+    left: 0;
+    flex: none;
+    background: var(--light-color);
+    width: 90px;
+    height: 2px;
+    margin: auto;
+}
+
+.line1 > div:after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 1rem;
+    background: var(--light-color);
+    width: 50px;
+    height: inherit;
+    margin: auto;
+}
+
 
 .sec-header{
     text-align: center;
     padding: 4rem 0 1rem 0;
     margin-top: 1rem;
 }
+
+
+.dark-color{
+    color: var(--primary-color);
+}
+
+.light-color{
+    color: var(--light-color)
+}
+
 
 .btn{
     display: inline-block;
@@ -148,7 +183,6 @@ li{
 }
 
 /* About Section */
-
 #about p{
     color: var(--dark-color);
     text-align: center;
@@ -215,15 +249,72 @@ li{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-
+    height: 30rem;
 }
 
-#skill h2, p, .line, .line> div{
-    color: #fff;
-}
 #skill p{
-    color: var(--dark-color);
+    color: var(--light-color);
     text-align: center;
-    padding-top: 4rem;
-    line-height: 1.1;
+    padding-top: 3rem;
+    line-height: 1.5;
+}
+
+#skill .skill-box{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#skill .boxes{
+    display: block;
+    margin: auto;
+    background: #dcdcdc;
+    width: 23rem;
+    height: 12rem;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+}
+
+#skill .boxes img{
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+#skill .boxes p{
+    padding: 0.7rem 0;
+    color: var(--primary-color);
+    font-size: 0.8rem;
+}
+
+#skill .boxes .add{
+    padding-top: 1.8rem;
+}
+
+#skill .progress-bar{
+    width: 80%;
+    height: 0.7rem;
+    margin: auto;
+    background: #A9A9A9;
+    border-radius: 10px;
+}
+
+#skill .progress-bar .bar1{
+    width: 80%;
+    height: 0.7rem;
+    border-radius: 10px;
+    background: #5aa6db;
+}
+#skill .progress-bar .bar2{
+    width: 30%;
+    height: 0.7rem;
+    border-radius: 8px;
+    background: var(--primary-color);
+}
+#skill .progress-bar .bar3{
+    width: 50%;
+    height: 0.7rem;
+    border-radius: 8px;
+    background: #ffac1b;
 }
