@@ -368,3 +368,31 @@ h4{
     padding-top: 1rem;
 }
 
+/* Accolades Section */
+#accolade{
+    background:rgba(24, 49, 83, 0.801);
+    height: 20rem;
+}
+
+#accolade .acc-list{
+    display: flex;
+}
+
+#accolade .accords{
+    margin: auto;
+    display: flex;
+    width: 5rem;
+    background: rgba(24, 49, 83, 0.801);
+}
+
+#accolade .accords h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0;
+}
+#accolade .accords p{
+    font-size: 20px;
+    color: #fff;
+}
+
