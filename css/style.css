@@ -376,13 +376,16 @@ h4{
 
 #accolade .acc-list{
     display: flex;
+    padding-top: 7rem;
+    color: #fff;
+    margin: auto;
+    max-width: 1200px;
 }
 
 #accolade .accords{
     margin: auto;
     display: flex;
     width: 5rem;
-    background: rgba(24, 49, 83, 0.801);
 }
 
 #accolade .accords h3{
@@ -390,9 +393,12 @@ h4{
     font-weight: bold;
     color: #fff;
     margin-bottom: 0;
+    justify-self: baseline;
+    padding: 0.7rem;
 }
 #accolade .accords p{
     font-size: 20px;
     color: #fff;
+    padding-top: 5px;
 }
 
