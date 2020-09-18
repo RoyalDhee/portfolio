@@ -419,6 +419,9 @@ h4{
 }
 
 /* Portfolio Section */
+#portfolio{
+    height: 80rem;
+}
 #portfolio p{
     text-align: center;
 }
@@ -443,15 +446,17 @@ h4{
     width: 21rem;
     height: 25rem;
     margin: 0.5rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 #portfolio .port-img img{
     width: 24rem;
-    height: 25rem;
+    height: 26rem;
     border-radius: 10px;
 }
 
-#portfolio .port-img img:nth-child(4){
+#portfolio .port-img:nth-child(4),
+#portfolio .port-img:nth-child(5),
+#portfolio .port-img:nth-child(6){
     margin-top: 3rem;
 }
