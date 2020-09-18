@@ -442,10 +442,12 @@ h4{
 #portfolio .port-img{
     width: 21rem;
     height: 25rem;
-    margin: 1rem;
+    margin: 0.5rem;
+    padding-top: 2rem;
 }
 
 #portfolio .port-img img{
-    width: 21rem;
+    width: 24rem;
     height: 25rem;
+    border-radius: 10px;
 }
