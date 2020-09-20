@@ -466,3 +466,19 @@ h4{
 #portfolio .port-img:nth-child(6){
     margin-top: 3rem;
 }
+
+/* Footer */
+#footer{
+    background: #27353b;
+    height: 20rem;
+    text-align: center;
+}
+
+#footer .footer-down{
+    display: flex;
+}
+
+#footer .footer-down li a{
+    color: #fff;
+    font-size: 2rem;
+}
