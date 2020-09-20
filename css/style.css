@@ -261,6 +261,7 @@ h4{
 
 #about .cta a {
     margin-left: 4rem;
+    text-align: center;
 }
 
 /* Skills Section */
@@ -321,7 +322,7 @@ h4{
 }
 
 #skill .progress-bar .bar1{
-    width: 80%;
+    width: 60%;
     height: 0.7rem;
     border-radius: 10px;
     background: #5aa6db;
@@ -333,7 +334,7 @@ h4{
     background: var(--primary-color);
 }
 #skill .progress-bar .bar3{
-    width: 50%;
+    width: 20%;
     height: 0.7rem;
     border-radius: 8px;
     background: #ffac1b;
@@ -347,6 +348,7 @@ h4{
 #services p{
     color: #061d3d;
     text-align: center;
+    line-height: 1.1;
 }
 
 /* Service Box */
@@ -373,10 +375,10 @@ h4{
 }
 
 #services .boxes p{
-    padding: 0.7rem 0;
+    padding: 0.7rem 0.8rem;
     color: var(--primary-color);
     font-size: 0.8rem;
-    text-align: center;
+    text-align: justify;
     line-height: 1.7;
 }
 
@@ -453,6 +455,10 @@ h4{
     width: 24rem;
     height: 26rem;
     border-radius: 10px;
+}
+
+#portfolio .port-img img:hover{
+    background: chocolate;
 }
 
 #portfolio .port-img:nth-child(4),
