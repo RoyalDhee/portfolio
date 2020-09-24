@@ -145,6 +145,7 @@ h4{
 
 .mx-1 { margin: 0 2rem;}
 .mx-2 { margin: 0 3rem;}
+.my-1 { margin: 2rem 0;}
 
 .py-1 { padding: 1rem 0;}
 .py-2 { padding: 2rem 0;}
@@ -459,9 +460,6 @@ h4{
     border-radius: 10px;
 }
 
-#portfolio .port-img img:hover{
-    background: chocolate;
-}
 
 #portfolio .port-img:nth-child(4),
 #portfolio .port-img:nth-child(5),
@@ -476,12 +474,19 @@ h4{
     text-align: center;
 }
 
-#footer .footer-down ul{
-    display: flex;
+#footer a{
+    font-size: 1.2rem;
+    color: rgb(221, 209, 209);
 }
 
-#footer .footer-down .social{
+
+#footer .footer-down a{
     color: #fff;
-    font-size: 2rem;
-    z-index: 2;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+#footer h4{
+    color: var(--light-color);
 }
