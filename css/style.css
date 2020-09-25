@@ -156,7 +156,6 @@ h4{
     background-image: linear-gradient(to right bottom, rgba(6, 29, 61, 0.80), rgba(16, 5, 75, 0.80)), url(../img/computer.jpg);
     background-size: cover;
     height: 100vh;
-    position: relative;
 }
 
 #navbar{
@@ -221,6 +220,7 @@ h4{
 
 .header-content a {
     margin: auto;
+    position: relative;
     animation: right-animation 3s ease-in-out;
 }
 
@@ -244,18 +244,27 @@ h4{
 
 }
 
-.header-content .btn::after {
+/* .header-content .btn::after {
     content: "";
     height: 100%;
     width: 100%;
+    border-radius: 10px;
     display: inline-block;
     position: absolute;
     top: 0;
     left: 0;
-    color: red;
     z-index: -2;
+    transition: all .4s ease-in-out;
 }
 
+.btn-white::after{
+    background-color: #fff;
+}
+
+.btn:hover::after{
+    transform: scale(1.5);
+    opacity: 0;
+} */
 /* About Section */
 #about p{
     color: var(--dark-color);
@@ -476,7 +485,7 @@ h4{
     padding-top: 5px;
 }
 
-/* Portfolio Section */
+/* Portfolio Section
 #portfolio{
     height: 80rem;
 }
@@ -518,7 +527,7 @@ h4{
 #portfolio .port-img:nth-child(5),
 #portfolio .port-img:nth-child(6){
     margin-top: 3rem;
-}
+} */
 
 /* Footer */
 #footer{
