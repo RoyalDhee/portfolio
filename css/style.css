@@ -156,6 +156,7 @@ h4{
     background-image: linear-gradient(to right bottom, rgba(6, 29, 61, 0.80), rgba(16, 5, 75, 0.80)), url(../img/computer.jpg);
     background-size: cover;
     height: 100vh;
+    position: relative;
 }
 
 #navbar{
@@ -223,6 +224,8 @@ h4{
     animation: right-animation 3s ease-in-out;
 }
 
+
+
 @keyframes right-animation {
     0%{
         opacity: 0;
@@ -241,7 +244,17 @@ h4{
 
 }
 
-
+.header-content .btn::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+    z-index: -2;
+}
 
 /* About Section */
 #about p{
