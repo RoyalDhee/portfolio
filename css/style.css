@@ -197,11 +197,51 @@ h4{
 .header-content h2{
     color: var(--light-color);
     line-height: 1.4;
+    animation: left-animation 2s ease-in-out;
+}
+
+@keyframes left-animation {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    60%{
+        opacity: 1;
+        transform: translateX(10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
 }
 
 .header-content a {
     margin: auto;
+    animation: right-animation 3s ease-in-out;
 }
+
+@keyframes right-animation {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    60%{
+        opacity: 1;
+        transform: translateX(-10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+
 
 /* About Section */
 #about p{
